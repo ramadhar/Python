@@ -1,0 +1,178 @@
+Python 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "copyright", "credits" or "license()" for more information.
+>>> WARNING: The version of Tcl/Tk (8.5.9) in use may be unstable.
+Visit http://www.python.org/download/mac/tcltk/ for current information.
+
+============== RESTART: /Volumes/Multimedia/Math/helloWorld.py ==============
+darwin
+1267650600228229401496703205376
+spam!spam!spam!spam!spam!spam!spam!spam!
+>>> 
+============== RESTART: /Volumes/Multimedia/Math/helloWorld.py ==============
+darwin
+1267650600228229401496703205376
+spam!spam!spam!spam!spam!spam!spam!spam!
+>>> 2*6
+12
+>>> 2**4
+16
+>>> 2**5 #2 to the power 5
+32
+>>> import math
+>>> math.pi
+3.141592653589793
+>>> import math
+>>> print(math.sqrt(144)) # square root
+12.0
+>>> math.pi
+3.141592653589793
+>>> math.pi*4*2 # Are of a circle with radius 4
+25.132741228718345
+>>> math.pi*4**2
+50.26548245743669
+>>> 15.08*9
+135.72
+>>> 13.23 * 13.23
+175.0329
+>>> 144/12
+12.0
+>>> 144%12
+0
+>>> 144%5
+4
+>>> 144-123
+21
+>>> 144+144
+288
+>>> import math
+>>> math.random(1,2,3,4)
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    math.random(1,2,3,4)
+AttributeError: module 'math' has no attribute 'random'
+>>> math.ran(1,2,3,4)
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    math.ran(1,2,3,4)
+AttributeError: module 'math' has no attribute 'ran'
+>>> import random
+>>> random.random()
+0.6481115335492319
+>>> random.choice(1,2,3,4)
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    random.choice(1,2,3,4)
+TypeError: choice() takes 2 positional arguments but 5 were given
+>>> random.choice([2,3,4,5])
+5
+>>> random.choice([2,3,4,5])
+5
+>>> random.choice([2,3,4,5])
+3
+>>> s='spam'
+>>> print(s)
+spam
+>>> s
+'spam'
+>>> s.[0]
+SyntaxError: invalid syntax
+>>> print(s[0])
+s
+>>> s[0]
+'s'
+>>> s[0:]
+'spam'
+>>> s[0:3]
+'spa'
+>>> s[1:4]
+'pam'
+>>> s[1:3]
+'pa'
+>>> s[-1]
+'m'
+>>> len(s)
+4
+>>> len(s[1:3])
+2
+>>> s[-2]
+'a'
+>>> s[0:-2]
+'sp'
+>>> s[0:-1]
+'spa'
+>>> s[-1:2]
+''
+>>> s[-1:1]
+''
+>>> s[:3]
+'spa'
+>>> s[:-1]
+'spa'
+>>> s[:]
+'spam'
+>>> s+'xyz'
+'spamxyz'
+>>> s*4
+'spamspamspamspam'
+>>> s=xyz
+Traceback (most recent call last):
+  File "<pyshell#49>", line 1, in <module>
+    s=xyz
+NameError: name 'xyz' is not defined
+>>> s='xyz'
+>>> s
+'xyz'
+>>> s*4
+'xyzxyzxyzxyz'
+>>> s='spam'
+>>> s[0]
+'s'
+>>> s[0]+'z'
+'sz'
+>>> s[0]='z'
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    s[0]='z'
+TypeError: 'str' object does not support item assignment
+>>> 'z'+s[1:]
+'zpam'
+>>> s='python'
+>>> l=list(s)
+>>> l
+['p', 'y', 't', 'h', 'o', 'n']
+>>> l[1]='z'
+>>> ''.join[l]
+Traceback (most recent call last):
+  File "<pyshell#62>", line 1, in <module>
+    ''.join[l]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+>>> ''.join(l)
+'pzthon'
+>>> s='ramadhar'
+>>> s.expand('kumar')
+Traceback (most recent call last):
+  File "<pyshell#65>", line 1, in <module>
+    s.expand('kumar')
+AttributeError: 'str' object has no attribute 'expand'
+>>> s=bytearray(n'ramadhar')
+SyntaxError: invalid syntax
+>>> B=bytearray(b'spam')
+>>> B.extend(b'kumar)
+	     
+SyntaxError: EOL while scanning string literal
+>>> B.exten(b'kumar')
+	     
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    B.exten(b'kumar')
+AttributeError: 'bytearray' object has no attribute 'exten'
+>>> B.extend(b'kumar')
+	     
+>>> B
+	     
+bytearray(b'spamkumar')
+>>> B.decode()
+	     
+'spamkumar'
+>>> 
