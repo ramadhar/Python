@@ -1,0 +1,19 @@
+# input(str) always return a string
+x= input("Enter a number: ")
+y= input("enter a number: ")
+
+# below print function concatinate two string (ram + kumar = ramkumar, 3+5=25) not adding two integer
+print("sum of x and y is: ", x+y)
+
+# input(str) always return a string , so we needs to cast this in required format
+a=int(input("enter a number: "))
+b= int(input("enter a number again: "))
+
+print("sum of a and b is: ",a+b)
+
+# input float number
+f1=float(input("Enter a decimal number: "))
+f2=float(input("Enter a decimal number: "))
+
+f3=f1+f2
+print(f3)
