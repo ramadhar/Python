@@ -1,0 +1,25 @@
+
+'''
+# inside method
+def divideBy(n):
+    try:
+        return 34/n
+    except ZeroDivisionError:
+        print("You are trying to divide an integer with zero")
+
+print(divideBy(3))
+print(divideBy(0))
+'''
+
+#outside of method
+def divideNum(n):
+    return 65/n
+
+try:
+    print(divideNum(7))
+    print(divideNum(9))
+    print(divideNum(3))
+    print(divideNum(0))
+except ZeroDivisionError:
+    print("Invalid operation")
+
