@@ -1,0 +1,28 @@
+'''
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143 ?
+'''
+
+import math
+num=600851475143
+#num =25
+maxVal=1
+
+while num%2==0:
+    print(" 2 ")
+    num=num/2
+    if maxVal<2:
+        maxVal=2
+
+for i in range(3, int(math.sqrt(num))+1,2):
+   # print("value of i: ",i)
+    while num%i==0:
+        print(" ",i)
+        if maxVal<i:
+            maxVal=i
+        num=num/i
+
+if num>2:
+    print(" ",num)
+
+print("greatest prime is ", maxVal)
