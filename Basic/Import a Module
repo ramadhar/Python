@@ -1,0 +1,12 @@
+import random
+import sys
+for i in range(5):
+    print(random.randint(1,10))
+    print(random.randrange(1,20,2))
+
+# we are using sys.exit() to terminate the program during execution
+while True:
+    print("Type exit to exit from program")
+    a=input("Enter a string")
+    if a=='exit':
+        sys.exit()
