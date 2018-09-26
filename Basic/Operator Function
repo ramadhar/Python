@@ -1,0 +1,8 @@
+import operator
+a=55
+b=23
+
+print("Addition is: ",operator.add(55,23))
+print("Multiplication is: ",operator.mul(a,b))
+
+print("Power is: ", operator.pow(a,b))
