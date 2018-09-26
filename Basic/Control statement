@@ -1,0 +1,74 @@
+# Types of range() function
+a=0
+for i in range(10):
+    print(i)
+
+# with 2 parameter
+for i in range(1,10):
+    print(i)
+
+# with 3 parameter. start point, end point, increment
+for i in range(1,20,2):
+    print(i)
+
+# For Loop and the range() Function
+add=0
+for i in range(1,11):
+    add=add+i
+print('sum is: ',add)
+
+'''
+# Break and continue statement
+y=''
+while y != 'ramadhar':
+    y=input("enter your name: \n")
+    if y!='ramadhar':
+        print('continus executed')
+        continue
+    if y=='ramadhar':
+        print('my name is ramadhar')
+        break
+
+# while statement
+x=0
+while x<8:
+    print('value is : ',x)
+    x=x+1
+'''
+'''
+# use of if , else and elif condition
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+
+if a==b:
+    print("a and b are equals\n")
+elif a>b:
+    print("a is greater than b\n")
+else :
+    print("a is less than b\n")
+
+print(42=='42')
+
+# simply we can write or , and or not and in place of || , && and !&&
+print(2+2==4 and not 2+2==5 and 2*2==2+2)
+
+
+'''
+'''
+# test boolean operation
+a=5
+b=6
+
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>b)
+
+if a<b:
+    print("a is less then b")
+else:
+    print("a is greater then b")
+'''
+
+
+
